@@ -1,0 +1,37 @@
+#+OPTIONS: d:(not "MYDRAWER")
+* Enliv CLI
+#+BEGIN_SRC bash :exports both :results drawer
+./enliv -h
+#+END_SRC
+#+BEGIN_EXAMPLE
+
+
+:RESULTS:
+exploring enliv made fun with <3
+
+Details:
+  website     https://enlivit.com
+  email       info@enlivit.com
+  contact     +977 12345678
+
+Enliv is a CLI tool made by enliv team to know more about enlivit.
+By more, we mean; get contact details, list jobs, get latest blog posts, 
+and new stuffs; hot & happening stuffs around enliv.
+
+PS: This is a fun project made in 20 mins challange :D
+
+Usage:
+  enliv [command]
+
+Available Commands:
+  apply       apply for a job post
+  help        Help about any command
+  info        get quick info details
+  list        listings: { jobs, facts}
+
+Flags:
+  -h, --help   help for enliv
+
+Use "enliv [command] --help" for more information about a command.
+:END:
+#+END_EXAMPLE
